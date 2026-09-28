@@ -1,0 +1,19 @@
+{
+  "name": "minimal-node-service",
+  "version": "1.0.0",
+  "description": "Minimal Twelve-Factor HTTP service with Node.js and Express",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "build": "echo 'No build step required'"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "express": "^5.1.0"
+  }
+}
